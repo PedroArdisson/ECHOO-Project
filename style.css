@@ -11,11 +11,86 @@ body{
 
     background-color: #1b2028;
     color: white;
-    border: 1px solid red;
+}
+
+button{
+    cursor: pointer;
 }
 
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid blue;
+}
+
+.container-main{
+  margin-top: 70px;
+}
+
+.container-nav{
+    background-color: #fbfcfe;
+    color: #545f71;
+}
+
+.container-nav2{
+    max-width: 1440px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-links{
+    margin-left: 30px;
+    display: flex;
+    list-style: none;
+}
+
+.logo-links li:not(:first-child){
+    margin-left: 16px;
+}
+
+.logo-links li{
+    cursor: pointer;
+    color: #7a8494;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.square-logo{
+    width: 32px;
+    height: 32px;
+    background-color: #545f71;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.login-button{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #545f71;
+    color: #545f71;
+    background-color: #fbfcfe;
+    font-weight: 600;
+}
+
+.singUp-button{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #545f71;
+    color: #fbfcfe;
+    background-color: #1b2028;
+    font-weight: 600;
+    margin-left: 16px;
 }
