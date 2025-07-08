@@ -17,13 +17,46 @@ button{
     cursor: pointer;
 }
 
+h1, p{
+    margin-top: 24px;
+}
+
+h1{
+    width: 350px;
+}
+
+p{
+    width: 400px;
+    color: #d4dae5;
+}
+
 .container{
     max-width: 1440px;
     margin: 0 auto;
 }
 
 .container-main{
-  margin-top: 70px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content-main{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content-party{
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 21px;
+    padding: 12px;
 }
 
 .container-nav{
@@ -74,6 +107,22 @@ button{
     margin-right: 12px;
 }
 
+.square-main{
+    width: 80%;
+    height: 420px;
+    background-color: #7a8494;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.square-content{
+    width: 64px;
+    height: 64px;
+    background-color: #7a8494;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+
 .login-button{
     padding: 8px;
     border-radius: 8px;
@@ -93,4 +142,9 @@ button{
     background-color: #1b2028;
     font-weight: 600;
     margin-left: 16px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 40px;
 }
