@@ -67,6 +67,7 @@ p{
 .container-nav2{
     max-width: 1440px;
     height: 90px;
+    padding: 16px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -109,7 +110,7 @@ p{
 
 .square-main{
     width: 80%;
-    height: 420px;
+    height: 320px;
     background-color: #7a8494;
     border-radius: 8px;
     margin-top: 24px;
@@ -146,5 +147,25 @@ p{
 
 .footer{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 90px;
+}
+
+@media screen and (max-width: 960px) {
+    .logo-links{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .singUp-button{
+        display: none;
+    }
+
+    .footer{
+        margin-top: 12px;
+    }
+    
+    p{
+        width: 300px;
+    }
 }
